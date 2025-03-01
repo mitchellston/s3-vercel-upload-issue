@@ -15,17 +15,21 @@
     "start": "cross-env NODE_OPTIONS=--no-deprecation next start"
   },
   "dependencies": {
-    "@payloadcms/next": "latest",
-    "@payloadcms/payload-cloud": "latest",
-    "@payloadcms/richtext-lexical": "latest",
+    "@payloadcms/db-sqlite": "3.25.0",
+    "@payloadcms/next": "3.25.0",
+    "@payloadcms/payload-cloud": "3.25.0",
+    "@payloadcms/richtext-lexical": "3.25.0",
+    "@payloadcms/storage-s3": "3.25.0",
+    "@t3-oss/env-nextjs": "^0.12.0",
     "cross-env": "^7.0.3",
     "graphql": "^16.8.1",
+    "jiti": "^2.4.2",
     "next": "15.1.5",
-    "payload": "latest",
+    "payload": "3.25.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "sharp": "0.32.6",
-    "@payloadcms/db-sqlite": "latest"
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
